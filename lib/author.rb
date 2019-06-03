@@ -4,10 +4,10 @@ class Author
   @@post_count = 0 
   @@all = []
   
-  def initialize(name)
+  def initialize(name, title)
     @name = name
     @posts = []
-    @@all << self
+    @@all << title
   end
   
   def add_post(post)
