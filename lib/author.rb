@@ -1,6 +1,6 @@
 class Author 
   
-  attr_accessor :title, :name, :posts
+  attr_accessor :name, :posts 
   @@post_count = 0 
   @@all = []
   
